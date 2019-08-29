@@ -17,36 +17,9 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data() {
-    return {
-      recommendList: [
-        {
-          id: '0001',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1412/84/59a55aa2632a3104e3c527301def622f.water.jpg_200x200_d5531e22.jpg',
-          title: '铜官窑',
-          desc: '望城区铜官窑，好像还可以，应该还可以，可看见你还今年基督教的'
-        },
-        {
-          id: '0002',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1412/84/59a55aa2632a3104e3c527301def622f.water.jpg_200x200_d5531e22.jpg',
-          title: '铜官窑',
-          desc: '望城区铜官窑，好像还可以，应该还可以，可看见你还今年基督教的'
-        },
-        {
-          id: '0003',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1412/84/59a55aa2632a3104e3c527301def622f.water.jpg_200x200_d5531e22.jpg',
-          title: '铜官窑',
-          desc: '望城区铜官窑，好像还可以，应该还可以，可看见你还今年基督教的'
-        },
-        {
-          id: '0004',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1412/84/59a55aa2632a3104e3c527301def622f.water.jpg_200x200_d5531e22.jpg',
-          title: '铜官窑',
-          desc: '望城区铜官窑，好像还可以，应该还可以，可看见你还今年基督教的'
-        },
-      ]
-    }
-  },
+  props: {
+    recommendList: Array
+  }
 }
 </script>
 
